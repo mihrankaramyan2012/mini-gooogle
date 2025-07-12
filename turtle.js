@@ -47,10 +47,12 @@ async function fetchImages() {
         cardEl.append(imageEl);
         cardEl.append(aEl);
         resultsEl.append(cardEl);
-
-
-
     }
 
+    if (data.results.length >= 10) {
+        buttonEl.style.display = "block"
+    } else {
+        buttonEl.style.display = "none"
+    }
 
 }

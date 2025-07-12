@@ -93,6 +93,7 @@ box-shadow: 1px 1px 1px;
     padding: 10px;
 }
 
-.rtx {
-    text-align: center;
+.load-more {
+    display: none;
+    margin: 0 auto;
 }
